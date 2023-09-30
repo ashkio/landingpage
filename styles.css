@@ -1,5 +1,16 @@
-header {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tophalf {
     background-color: #1f2937;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
@@ -10,7 +21,6 @@ header {
 .headerlogo {
     font-size: 24px;
     margin: 0;
-    
 }
 
 ul {
@@ -25,13 +35,13 @@ li {
 }
 
 .hero {
-    background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     align-items:stretch;
     flex: 1 1 0;
     padding: 25px;
     gap: 25px;
+    margin: 0px 15%;
 }
 
 h1 {
@@ -62,4 +72,98 @@ h1 {
     inset: 2px;
     font-weight: bold;
     width: fit-content;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-images {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid #3883f6;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.quotation {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+#thor {
+    text-indent: 150px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: large;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #3883f6;
+    border-radius: 10px;
+    color: #e7e5eb;
+    margin: 36px;
+    padding: 20px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+.calltext {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calltext #subcall {
+    font-size: 16px;
+    color:#e5e7eb;
+}
+
+.call button {
+    background-color: #3883f6;
+    border-radius: 10px;
+    padding: 10px;
+    color: #e7e5eb;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e7e5eb;
+    padding: 20px;
+    font-size: 10px;
 }
